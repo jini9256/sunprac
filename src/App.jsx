@@ -7,7 +7,7 @@ function App() {
   // const dispatch = useDispatch();
   // const todosStore = useSelector(state=>state)
   return (
-    <stBody>
+    <StBody>
       <Headers />
       <StMain>
         {/* 입력부분 */}
@@ -15,13 +15,13 @@ function App() {
         {/* 화면 렌더링되는 부분 */}
         <TodoList />
       </StMain>
-    </stBody>
+    </StBody>
   );
 }
 
 export default App;
 
-const stBody = styled.div`
+const StBody = styled.div`
   max-width: 1200px;
   min-width: 800px;
   margin: 0px auto;
